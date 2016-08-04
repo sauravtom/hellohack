@@ -25,6 +25,16 @@ a.active {
 #big-image{
   width: 700px;
 }
+#title-text{
+  padding-top: 42px;
+}
+
+#small-image{
+  width: 130px;
+  position: relative;
+  left: 0px;
+  float: left;
+}
 
 h1,
 h2,
@@ -102,7 +112,7 @@ header .intro-text .skills {
     padding-bottom: 10px;
   }
   header .intro-text .name {
-    font-size: 4.75em;
+    font-size: 2.75em;
   }
   header .intro-text .skills {
     font-size: 1.75em;
@@ -221,6 +231,7 @@ section.success {
   transition: all ease 0.5s;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
+  text-align: center;
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
